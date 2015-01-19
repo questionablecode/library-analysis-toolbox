@@ -16,3 +16,5 @@ Require-Bundle:
  com.ensoftcorp.atlas.jimple.ui;bundle-version="1.0.0";visibility:=reexport
 Bundle-ActivationPolicy: lazy
 Bundle-ClassPath: .
+Export-Package: com.qc.adlib,
+ com.qc.adlib.android

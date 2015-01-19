@@ -49,6 +49,14 @@ public class AdLibrary {
 	}
 	
 	/**
+	 * Returns a Q containing the types contained in the packages contained in this advertisement library
+	 * @return
+	 */
+	public Q getTypes(){
+		return PackageUtils.getPackageTypes(Common.universe(), getPackages());
+	}
+	
+	/**
 	 * Returns a reference to the advertisement library or null if none exists
 	 * @return
 	 */

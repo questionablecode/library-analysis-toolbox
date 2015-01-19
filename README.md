@@ -1,2 +1,2 @@
-# Advertisement Library Toolbox
-A set of utilities for analyzing advertisement libraries with Atlas
+# Library Analysis Toolbox
+A set of utilities for analyzing advertisement and other support libraries with Atlas

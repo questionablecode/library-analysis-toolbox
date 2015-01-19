@@ -3,74 +3,17 @@ package com.qc.adlib.android;
 import java.util.Collection;
 import java.util.LinkedList;
 
-import com.ensoftcorp.atlas.java.core.query.Q;
-import com.qc.adlib.PackageUtils;
-
 /**
  * A collection of known Android advertisement libraries and their properties
  * Note: Primary reference http://arxiv.org/pdf/1303.0857.pdf
  * @author Ben Holland
  */
-public class AdLibrary {
-
-	private String name;
-	private String basePackage;
-	private String reference;
+public class AdLibrary extends Library {
 	
 	public AdLibrary(String name, String basePackage, String reference) {
-		this.name = name;
-		this.basePackage = basePackage;
-		this.reference = reference;
+		super(name, basePackage, reference);
 	}
-	
-	/**
-	 * Returns the advertisement library name
-	 * @return
-	 */
-	public String getName() {
-		return name;
-	}
-	
-	/**
-	 * Returns the base package of the advertisement library
-	 * @return
-	 */
-	public String getBasePackage() {
-		return basePackage;
-	}
-	
-	/**
-	 * Returns a Q containing the packages contained in this advertisement library
-	 * @return
-	 */
-	public Q getPackages(){
-		return PackageUtils.getPackageWithSubpackages(basePackage);
-	}
-	
-	/**
-	 * Returns a Q containing the types contained in the packages contained in this advertisement library
-	 * @return
-	 */
-	public Q getTypes(){
-		return PackageUtils.getPackageTypes(getPackages());
-	}
-	
-	/**
-	 * Returns a Q containing all the declarations made in the packages contained in this advertisement library
-	 * @return
-	 */
-	public Q getDeclarations(){
-		return PackageUtils.getPackageDeclarations(basePackage);
-	}
-	
-	/**
-	 * Returns a reference to the advertisement library or null if none exists
-	 * @return
-	 */
-	public String getReference() {
-		return reference;
-	}
-	
+
 	public static final AdLibrary ADMOB_GOOGLE = new AdLibrary("AdMob (com.google)", "com.google.ads", null);
 	public static final AdLibrary FLURRY = new AdLibrary("Flurry", "com.flurry", null);
 	public static final AdLibrary IN_MOBI = new AdLibrary("InMobi", "com.inmobi", null);

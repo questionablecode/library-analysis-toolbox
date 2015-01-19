@@ -21,7 +21,7 @@ public class SupportLibrary extends Library {
 	 * Returns a collection of all known Android support libraries
 	 * @return
 	 */
-	public static Collection<SupportLibrary> getAllAdvertisementLibraries(){
+	public static Collection<SupportLibrary> getAllSupportLibraries(){
 		Collection<SupportLibrary> allSupportLibraries = new LinkedList<SupportLibrary>();
 		allSupportLibraries.add(APP_COMPAT_V4);
 		allSupportLibraries.add(APP_COMPAT_V7);

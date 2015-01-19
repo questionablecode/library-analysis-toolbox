@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: Advertisement Library Toolbox
-Bundle-SymbolicName: com.qc.adlib.toolbox;singleton:=true
+Bundle-Name: Library Analysis Toolbox
+Bundle-SymbolicName: com.qc.libanalysis.toolbox;singleton:=true
 Bundle-Version: 0.28.2.qualifier
 Bundle-Vendor: Questionable Code
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7

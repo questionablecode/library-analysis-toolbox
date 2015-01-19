@@ -132,13 +132,6 @@ public class AdLibrary {
 	public static final AdLibrary lDevelop = new AdLibrary("lDevelop", "com.ldevelop", null);
 	
 	/**
-	 * A collection of all known Android advertisement libraries
-	 * Note: Making changes to this collection may have unintended side effects.  Make a deep copy first or
-	 * call the AdLibrary.getAllAdvertisementLibraries() method for a fresh instance.
-	 */
-	public static final Collection<AdLibrary> allAdvertisementLibraries = getAllAdvertisementLibraries();
-	
-	/**
 	 * Returns a collection of all known Android advertisement libraries
 	 * @return
 	 */

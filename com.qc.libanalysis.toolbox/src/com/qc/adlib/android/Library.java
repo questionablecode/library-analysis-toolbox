@@ -1,6 +1,6 @@
 package com.qc.adlib.android;
 
-import com.ensoftcorp.atlas.java.core.query.Q;
+import com.ensoftcorp.atlas.core.query.Q;
 import com.qc.adlib.PackageUtils;
 
 /**

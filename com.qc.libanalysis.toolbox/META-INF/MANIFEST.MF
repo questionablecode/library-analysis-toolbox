@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Library Analysis Toolbox
 Bundle-SymbolicName: com.qc.libanalysis.toolbox;singleton:=true
-Bundle-Version: 0.28.2.qualifier
+Bundle-Version: 2.2.6.qualifier
 Bundle-Vendor: Questionable Code
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
 Require-Bundle: 
@@ -10,10 +10,10 @@ Require-Bundle:
  org.eclipse.ui;visibility:=reexport,
  org.eclipse.core.runtime;visibility:=reexport,
  org.eclipse.core.resources;visibility:=reexport,
- com.ensoftcorp.atlas.java.core;bundle-version="0.28.2";visibility:=reexport,
- com.ensoftcorp.atlas.java.ui;bundle-version="0.28.2";visibility:=reexport,
- com.ensoftcorp.atlas.core;bundle-version="0.28.2";visibility:=reexport,
- com.ensoftcorp.atlas.jimple.ui;bundle-version="1.0.0";visibility:=reexport
+ com.ensoftcorp.atlas.java.core;bundle-version="2.2.6";visibility:=reexport,
+ com.ensoftcorp.atlas.java.ui;bundle-version="2.2.6";visibility:=reexport,
+ com.ensoftcorp.atlas.core;bundle-version="2.2.6";visibility:=reexport,
+ com.ensoftcorp.atlas.jimple.ui;bundle-version="2.2.6";visibility:=reexport
 Bundle-ActivationPolicy: lazy
 Bundle-ClassPath: .
 Export-Package: com.qc.adlib,
